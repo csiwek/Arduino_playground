@@ -6,7 +6,7 @@
 
 void sendTemperature(float temp);
 const char* ssid     = "cez";
-const char* password = "dupa123dupa123";
+const char* password = "wifipass";
 OneWire  ds(4);
 DallasTemperature DS18B20(&ds);
 float oldTemp;
